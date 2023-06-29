@@ -24,7 +24,7 @@ bool ratinmaze(int** arr, int x,int y, int n, int** solArr)
         if (ratinmaze(arr,x,y+1,n,solArr)){
             return true;
         }
-        solArr[x][y] = 0;            //backtracking
+        solArr[x][y] = 0;            
         return false;
     }
     return false;
